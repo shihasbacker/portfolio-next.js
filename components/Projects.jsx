@@ -1,7 +1,7 @@
 import React from "react";
 import ProjectItem from "./ProjectItem";
 import Ecommerce from "../public/assets/projects/Ecommerce.png";
-import SocialMedia from "../public/assets/projects/SocialMedia.png";
+import SocialMedia from "../public/assets/projects/Socialmedia.png";
 
 const projects = () => {
   return (
