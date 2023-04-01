@@ -1,5 +1,3 @@
-import Image from "next/image";
-import Link from "next/link";
 import React from "react";
 import ProjectItem from "./ProjectItem";
 import Ecommerce from "../public/assets/projects/Ecommerce.png";
