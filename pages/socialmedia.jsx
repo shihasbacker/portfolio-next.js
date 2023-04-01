@@ -37,12 +37,11 @@ const socialmedia = () => {
             post.
           </p>
           <p>Real-time user chat implemented using the WebSocket - socket.io</p>
-          <Link href='https://www.socialspaces.fashionclues.shop/'>
-
-          <button className="px-8 py-2 mt-4 mr-8">Demo</button>
+          <Link href="https://www.socialspaces.fashionclues.shop/">
+            <button className="px-8 py-2 mt-4 mr-8">Demo</button>
           </Link>
-          <Link href='https://github.com/shihasbacker/SocialMedia-MERN-Project'>
-          <button className="px-8 py-2 mt-4">Code</button>
+          <Link href="https://github.com/shihasbacker/SocialMedia-MERN-Project">
+            <button className="px-8 py-2 mt-4">Code</button>
           </Link>
           <Link href="/#projects">
             <p className="underline cursor-pointer pt-6">Back</p>
