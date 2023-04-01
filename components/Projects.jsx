@@ -5,7 +5,7 @@ import SocialMedia from "../public/assets/projects/SocialMedia.png"
 
 const projects = () => {
   return (
-    <div className="w-full">
+    <div id="projects" className="w-full">
       <div className="max-w-[1240px] mx-auto px-2 py-16">
         <p className="text-xl tracking-widest uppercase text-[#5651e5]">
           Projects
@@ -16,13 +16,13 @@ const projects = () => {
             title="Fashion Clues"
             type="E-commerce"
             backgroundImg={Ecommerce}
-            projectUrl="https://fashionclues.shop/"
+            projectUrl="/ecommerce"
           />
           <ProjectItem
             title="Social Space"
             type="Social Media"
             backgroundImg={SocialMedia}
-            projectUrl="https://www.socialspaces.fashionclues.shop/"
+            projectUrl="/socialmedia"
           />
         </div>
       </div>
