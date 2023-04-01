@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import JavascriptImg from "../public/assets/skills/javascript.png";
 
 const Skills = () => {
   return (
@@ -14,7 +15,7 @@ const Skills = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src="/../public/assets/skills/javascript.png"
+                  src={JavascriptImg}
                   width="64"
                   height="64"
                   alt="/"
